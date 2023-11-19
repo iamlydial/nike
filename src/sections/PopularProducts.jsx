@@ -1,6 +1,5 @@
 import { products } from "../constants";
-import { PopularProductCard } from "../components";
-
+import PopularProductCard from "../components/PopularProductCard";
 const PopularProducts = () => {
   return (
     <section id="products" className="max-container max-sm:mt-12">
