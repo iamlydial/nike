@@ -1,3 +1,4 @@
+import { shoe8 } from "../assets/images";
 import Button from "../components/Button";
 const SuperQuality = () => {
   return (
@@ -21,7 +22,18 @@ const SuperQuality = () => {
         <p className="mt-6 lg:max-w-lg info-text">
           Our dedication to detail and excellence ensures your satisfaction
         </p>
-        <Button label="View details" />
+        <div className="mt-11">
+          <Button label="View details" />
+        </div>
+      </div>
+      <div className="flex-1 flex justify-center items-center">
+        <img
+          alt="shoe8"
+          width={570}
+          height={522}
+          src={shoe8}
+          className="object-contain"
+        />
       </div>
     </section>
   );
